@@ -1,0 +1,27 @@
+baseurl = "https://takesato.github.io/blogs"
+languageCode = "ja-JP"
+title = "takesato's blog"
+
+theme = "hugo_theme_beg"
+MetaDataFormat = "toml"
+copyright = "Copyright (c) 2008 - 2014, Steve Francia; all rights reserved."
+canonifyurls = true
+paginate = 3
+
+[author]
+  name = "takehito sato"
+
+[permalinks]
+  post = "/blog/:slug/"
+
+[indexes]
+  category = "categories"
+
+[params]
+  disqusShortname = "your disqus id." # optional
+  toc = true # optional, When set to TRUE this parameter, table of contents appears in all articles.
+  highlight = "sunburst"
+
+  facebook = "https://www.facebook.com/hogehoge"
+  twitter = "https://twitter.com/takesato"
+  github = "https://github.com/takesato"
