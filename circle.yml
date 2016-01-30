@@ -12,6 +12,13 @@ dependencies:
     - git config --global user.name "CircleCI"
     - git config --global user.email "circleci@example.com"
 
+general:
+  branches:
+    ignore:
+      - gh-pages
+    only:
+      - master
+
 deployment:
   master:
     branch: master
