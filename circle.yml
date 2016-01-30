@@ -18,5 +18,5 @@ deployment:
     commands:
       - git push origin :gh-pages
       - hugo
-      - git add public && git commit -m "[skip ci]compile hugo"
+      - git add public && git commit -m "[skip ci] publish"
       - git subtree push --prefix=public/ origin gh-pages
