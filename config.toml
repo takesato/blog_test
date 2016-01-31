@@ -12,7 +12,7 @@ paginate = 3
   name = "takehito sato"
 
 [permalinks]
-  post = "/blog/:slug/"
+  post = "/blog_test/:slug/"
 
 [indexes]
   category = "categories"
