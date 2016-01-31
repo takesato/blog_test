@@ -1,4 +1,4 @@
-baseurl = "https://takesato.github.io/blogs"
+baseurl = "https://takesato.github.io/blog_test"
 languageCode = "ja-JP"
 title = "takesato's blog"
 
@@ -12,7 +12,7 @@ paginate = 3
   name = "takehito sato"
 
 [permalinks]
-  post = "/blog_test/:slug/"
+  post = "/:slug/"
 
 [indexes]
   category = "categories"
