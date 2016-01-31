@@ -10,4 +10,4 @@ slug = "contribute-to-github"
 
 slug のテスト
 
-![](slug-01.png)
+![](/slug-01.png)
