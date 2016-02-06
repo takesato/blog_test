@@ -23,9 +23,7 @@ deployment:
   master:
     branch: master
     commands:
-      - git checkout gh-pages
-      - git pull --rebase
-      - git checkout master
+      - git subtree pull --prefix=public/ origin/gh-pages || true
       - hugo
       - git add public && git commit -m "[ci skip] publish"
       - git subtree split --prefix=public/ origin/gh-pages || true
