@@ -29,4 +29,4 @@ deployment:
     commands:
       - git clone -b gh-pages git@github.com:takesato/blog_test.git public
       - hugo
-      - cd public && git add . && git commit -m "publish" && git push -f origin gh-pages
+      - cd public && git add . && git commit -m "publish on `TZ=JST-9 date '+%Y/%m/%d %H:%M:%S'`" && git push -f origin gh-pages
