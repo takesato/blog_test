@@ -1,3 +1,10 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+    only:
+      - master
+
 checkout:
   post:
     - git submodule sync
@@ -12,12 +19,9 @@ dependencies:
     - git config --global user.name "CircleCI"
     - git config --global user.email "circleci@example.com"
 
-general:
-  branches:
-    ignore:
-      - gh-pages
-    only:
-      - master
+test:
+  override:
+    - hugo check
 
 deployment:
   master:
@@ -25,4 +29,4 @@ deployment:
     commands:
       - git clone -b gh-pages git@github.com:takesato/blog_test.git public
       - hugo
-      - cd public && git add public && git commit -m "publish" && git push -f origin gh-pages
+      - cd public && git add . && git commit -m "publish" && git push -f origin gh-pages
