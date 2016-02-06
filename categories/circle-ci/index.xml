@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circle Ci on takesato&#39;s blog</title>
+    <link>https://takesato.github.io/blog_test/categories/circle-ci/</link>
+    <description>Recent content in Circle Ci on takesato&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 06 Feb 2016 23:23:12 +0900</lastBuildDate>
+    <atom:link href="https://takesato.github.io/blog_test/categories/circle-ci/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>circle ci test</title>
+      <link>https://takesato.github.io/blog_test/circle_ci_test/</link>
+      <pubDate>Sat, 06 Feb 2016 23:23:12 +0900</pubDate>
+      
+      <guid>https://takesato.github.io/blog_test/circle_ci_test/</guid>
+      <description>&lt;p&gt;circle ci test&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
