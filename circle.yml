@@ -26,5 +26,5 @@ deployment:
       - hugo
       - git add public && git commit -m "[ci skip] publish"
       - git push origin master
-      - git subtree split --prefix=public/ origin
+      - git subtree split --prefix=public/ origin/gh-pages
       - git subtree push --prefix=public/ --squash origin gh-pages
