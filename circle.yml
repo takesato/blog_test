@@ -23,8 +23,6 @@ deployment:
   master:
     branch: master
     commands:
-      - git subtree pull --prefix=public/ origin/gh-pages || true
+      - git clone -b gh-pages git@github.com:takesato/blog_test.git public
       - hugo
-      - git add public && git commit -m "[ci skip] publish"
-      - git subtree split --prefix=public/ origin/gh-pages || true
-      - git subtree push --prefix=public/ --squash origin gh-pages
+      - cd public && git add public && git commit -m "publish" && git push -f origin gh-pages
