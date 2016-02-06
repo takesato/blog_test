@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>takesato&#39;s blog</title>
-    <link>https://takesato.github.io/blog_test/</link>
-    <description>Recent content on takesato&#39;s blog</description>
+    <title>Hugo on takesato&#39;s blog</title>
+    <link>https://takesato.github.io/blog_test/categories/hugo/</link>
+    <description>Recent content in Hugo on takesato&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Sat, 30 Jan 2016 22:32:00 +0900</lastBuildDate>
-    <atom:link href="https://takesato.github.io/blog_test/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://takesato.github.io/blog_test/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>github 上で新規記事投稿テスト</title>
@@ -19,17 +19,6 @@
       <description>&lt;p&gt;slug のテスト&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://takesato.github.io/blog_test/slug-01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://takesato.github.io/blog_test/test/</link>
-      <pubDate>Sun, 24 Jan 2016 19:31:13 +0900</pubDate>
-      
-      <guid>https://takesato.github.io/blog_test/test/</guid>
-      <description>&lt;p&gt;test
-test&lt;/p&gt;
 </description>
     </item>
     
