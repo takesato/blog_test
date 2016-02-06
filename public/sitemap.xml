@@ -2,8 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <loc>https://takesato.github.io/blog_test/</loc>
+    <lastmod>2016-01-30T22:32:00+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://takesato.github.io/blog_test/contribute-to-github/</loc>
+    <lastmod>2016-01-30T22:32:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://takesato.github.io/blog_test/test/</loc>
+    <lastmod>2016-01-24T19:31:13+09:00</lastmod>
   </url>
   
 </urlset>
