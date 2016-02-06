@@ -23,7 +23,7 @@ deployment:
   master:
     branch: master
     commands:
-      - git ls-remote|grep gh-pages && git push origin :gh-pages
       - hugo
       - git add public && git commit -m "[skip ci] publish"
-      - git subtree push --prefix=public/ origin gh-pages
+      - git push origin master
+      - git subtree push --prefix=public/ --squash origin gh-pages
